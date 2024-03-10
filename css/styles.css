@@ -344,7 +344,7 @@ a:active {
 .tech-carousel-icons {
   display: inline-block;
   padding: 30px 0;
-  animation: 30s tech-carousel infinite linear;
+  animation: 40s tech-carousel infinite linear;
 }
 
 .tech-carousel-icons img {
