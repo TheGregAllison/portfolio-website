@@ -61,6 +61,7 @@ ul li {
 
 #logo {
   max-width: 190px;
+  margin-top: 10px;
   margin-left: 20px;
 }
 
@@ -433,7 +434,8 @@ a:active {
   }
 
   #logo {
-    width: 120px;
+    width: 140px;
+    margin-top: 10px;
   }
 
   .kc-skyline {
