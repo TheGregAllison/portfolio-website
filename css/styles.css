@@ -1,7 +1,6 @@
 :root {
   --white: #fff;
   --off-white: #eaeaea;
-  --primary-color: #118c8a;
   --dark-grey: #69626d;
   --black: #000000;
   --body-padding: 80px;
@@ -379,8 +378,6 @@ a:active {
   opacity: 0.9;
 }
 
-/* FIX CAROUSEL LOOP */
-
 .bio {
   text-indent: 50px;
 }
@@ -402,4 +399,79 @@ a:active {
   position: fixed;
   right: 20px;
   bottom: 20px;
+}
+
+@media all and (max-width: 500px) {
+  body {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 100%; /* Adjust as needed */
+  }
+
+  .portfolio-list {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    align-items: center; /* Center content horizontally */
+    margin: 0 auto; /* Center the column */
+    max-width: 100%; /* Adjust as needed */
+  }
+
+  ul {
+    margin-right: 10px;
+  }
+
+  li {
+    padding: 0;
+    margin: 0;
+  }
+
+  #logo {
+    width: 120px;
+  }
+
+  .kc-skyline {
+    transform: scale(2);
+  }
+
+  .home-link {
+    display: none;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .portfolio__item {
+    grid-column: 1/2;
+    grid-row: auto; /* Reset grid row */
+  }
+}
+
+.profile-social-media {
+  display: block;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.profile-bottom-line {
+  margin-top: -50px;
+}
+
+.contact {
+  display: inline;
+  flex-direction: row;
+}
+
+.pro-headshot {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px .5px var(--dark-grey);
 }

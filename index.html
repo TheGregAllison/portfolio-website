@@ -20,7 +20,7 @@
           <img id="logo" src="img/ga-logo.png" alt="Greg Allison Logo" />
         </a>
         <ul>
-          <li><a href="#Home">Home</a></li>
+          <li><a class="home-link" href="#Home">Home</a></li>
           <li><a href="#Work">Work</a></li>
           <li><a href="#About">About</a></li>
           <li><a href="#Contact">Contact</a></li>
@@ -37,16 +37,32 @@
             alt="Greg Allison Portrait"
           />
           <div class="profile__text">
-            <h1>Hello World!</h1>
+            <h1>Greg Allison</h1>
             <p>
-              My name is Greg Allison. I am a web developer from Kansas City,
-              Missouri.
+              <strong>Thanks for stopping by!</strong><br />My name is Greg
+              Allison and I am a web developer from Kansas City, Missouri.
             </p>
+            <div class="profile-social-media">
+              <p>Connect with me:</p>
+              <a href="https://github.com/TheGregAllison" target="_blank"
+                ><img
+                  src="img/icons/github-logo.svg"
+                  alt="GitHub Social Icon"
+                  width="40"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/greg-allison/"
+                target="_blank"
+                ><img
+                  src="img/linkedin-logo.svg"
+                  alt="LinkedIn Social Icon"
+                  width="40"
+              /></a>
+            </div>
           </div>
         </div>
+        <hr class="profile-bottom-line" />
       </section>
-
-      <hr class="profile-bot-line" />
       <section id="Work">
         <h2>My Work</h2>
         <div class="portfolio-list">
@@ -328,7 +344,7 @@
               <h3>Meet App</h3>
             </a>
             <hr />
-            <a href="https://github.com/TheGregAllison/Meet" target="_blank">
+            <a href="https://thegregallison.github.io/meet/" target="_blank">
               <img class="portfolio-mockup" src="img/meet-mockup.png" />
             </a>
             <div class="skills__item">
@@ -396,7 +412,7 @@
             <hr />
             <a
               href="https://thegregallison.github.io/Pokedex-App/"
-              targer="_blank"
+              target="_blank"
             >
               <img class="portfolio-mockup" src="img/Pokedex-App.png" />
             </a>
@@ -486,6 +502,7 @@
       </section>
       <section id="About">
         <h2>About Me</h2>
+        <img class="pro-headshot" src="img/greg-pro-headshot.jpg" width="250" />
         <p>
           Originally from the Kansas City, Missouri area, I embarked on my
           professional journey after obtaining my real estate license after
@@ -883,14 +900,14 @@
 
     <footer class="page-footer">
       <span class="contact-info">
-        <strong>Phone:</strong> <a href="tel:+1 816-262-3247">816-262-3247</a
-        ><br />
-        <strong>Email:</strong>
+        <strong class="contact">Phone:</strong>
+        <a href="tel:+1 816-262-3247">816-262-3247</a>
+        <strong class="contact">Email:</strong>
         <a href="mailto:thegregallison@gmail.com">thegregallison@gmail.com</a>
       </span>
 
       <div class="social-media">
-        <p>Find me on:</p>
+        <p><strong>Find me on:</strong></p>
         <a href="https://github.com/TheGregAllison" target="_blank"
           ><img
             src="img/icons/github-logo.svg"
