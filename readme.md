@@ -2,7 +2,7 @@
 
 ## Above The Fold
 
-<img width="952" alt="Screenshot 2024-03-10 at 6 02 18 PM" src="https://github.com/TheGregAllison/portfolio-website/assets/146021687/853685c7-f95a-4e09-a79b-1a5a20c47b54">
+<img width="1255" alt="Screenshot 2024-03-10 at 10 09 41 PM" src="https://github.com/TheGregAllison/portfolio-website/assets/146021687/32234c88-aaf9-46d2-b122-0bb20698cd3c">
 
 ## Description
 
