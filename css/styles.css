@@ -14,13 +14,13 @@ body {
   padding-top: var(--body-padding);
   background-color: var(--white);
   font-family: 'Titillium Web', sans-serif;
-  font-size: small;
   color: var(--black);
   max-width: 800px;
   margin: 0 auto;
   padding-bottom: 20px;
   justify-content: center;
   align-items: center;
+  font-size: 1.125rem;
 }
 
 #navbar {
