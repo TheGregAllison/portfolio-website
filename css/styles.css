@@ -525,3 +525,7 @@ a:active {
   border-radius: 5px;
   box-shadow: 1px 1px 5px 0.5px var(--dark-grey);
 }
+
+.medium-icon {
+  border-radius: 25px;
+}
