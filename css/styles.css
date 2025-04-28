@@ -59,10 +59,14 @@ ul li {
   margin-right: 20px;
 }
 
-#logo {
+#logo-text {
   max-width: 190px;
   margin-top: 10px;
   margin-left: 20px;
+  font-size: 1.5rem; /* adjust size as needed */
+  font-weight: bold;
+  color: black; /* or whatever color matches your theme */
+  text-decoration: none; /* removes underline */
 }
 
 a {
@@ -537,7 +541,7 @@ a:active {
 }
 
 .portfolio__item h3 {
-  font-size: 1rem; 
+  font-size: 1rem;
   line-height: 1.2em;
   max-height: calc(2 * 1.2em);
   overflow: hidden;
